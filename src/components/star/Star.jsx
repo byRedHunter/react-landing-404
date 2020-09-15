@@ -4,8 +4,6 @@ import React, { useState, useEffect } from 'react'
 import './Star.css'
 
 const Star = () => {
-	/* const [witdh, setWidth] = useState(window.innerWidth)
-	const [height, setHeight] = useState(window.innerHeight) */
 	const [starCss, seteStarCss] = useState({
 		left: '50%',
 		top: 'calc(100% + 300px)',
@@ -15,9 +13,9 @@ const Star = () => {
 		animationDelay: '2s',
 	})
 
-	const changePos = (witdhSize, heightSize) => {
-		let x = Math.floor(Math.random() * witdhSize)
-		let y = Math.floor(Math.random() * heightSize)
+	const changePos = () => {
+		let x = Math.floor(Math.random() * window.innerWidth)
+		let y = Math.floor(Math.random() * window.innerHeight)
 		let duration = Math.random() * 10
 		let size = Math.random() * 2
 
