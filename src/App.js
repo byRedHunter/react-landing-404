@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+
+// statics
+import './App.css'
+
+// components
+import Error from './components/error/Error'
+import Info from './components/info/Info'
+import Astronaut from './components/astronaut/Astronaut'
+import ContainerStar from './components/containerStar/ContainerStar'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<main className='space'>
+			<Error />
+			<Info />
+			<Astronaut />
+			<ContainerStar />
+		</main>
+	)
 }
 
-export default App;
+export default App
