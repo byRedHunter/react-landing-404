@@ -4,8 +4,8 @@ import React, { useState, useEffect } from 'react'
 import './Star.css'
 
 const Star = () => {
-	const [witdh, setWidth] = useState(window.innerWidth)
-	const [height, setHeight] = useState(window.innerHeight)
+	/* const [witdh, setWidth] = useState(window.innerWidth)
+	const [height, setHeight] = useState(window.innerHeight) */
 	const [starCss, seteStarCss] = useState({
 		left: '50%',
 		top: 'calc(100% + 300px)',
@@ -31,8 +31,9 @@ const Star = () => {
 		seteStarCss({ left, top, width, height, animationDuration, animationDelay })
 	}
 
-	useEffect(() => {
-		const updateSize = () => {
+	useEffect(
+		() => {
+			/* const updateSize = () => {
 			const witdh = window.innerWidth
 			const height = window.innerHeight
 
@@ -40,10 +41,15 @@ const Star = () => {
 			setHeight(height)
 		}
 
-		window.addEventListener('resize', updateSize)
+		window.addEventListener('resize', updateSize) */
 
-		changePos(witdh, height)
-	}, [witdh, height])
+			/* changePos(witdh, height) */
+			changePos()
+		},
+		[
+			/* witdh, height */
+		]
+	)
 
 	return <i style={starCss}></i>
 }
