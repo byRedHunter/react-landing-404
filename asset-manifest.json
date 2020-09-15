@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-landing-404/static/css/main.51bcc3d7.chunk.css",
+    "main.js": "/react-landing-404/static/js/main.3dbb922f.chunk.js",
+    "main.js.map": "/react-landing-404/static/js/main.3dbb922f.chunk.js.map",
+    "runtime-main.js": "/react-landing-404/static/js/runtime-main.65fde4d9.js",
+    "runtime-main.js.map": "/react-landing-404/static/js/runtime-main.65fde4d9.js.map",
+    "static/js/2.e429d9f1.chunk.js": "/react-landing-404/static/js/2.e429d9f1.chunk.js",
+    "static/js/2.e429d9f1.chunk.js.map": "/react-landing-404/static/js/2.e429d9f1.chunk.js.map",
+    "index.html": "/react-landing-404/index.html",
+    "precache-manifest.766688d9c5548c267a30dfc4615cea58.js": "/react-landing-404/precache-manifest.766688d9c5548c267a30dfc4615cea58.js",
+    "service-worker.js": "/react-landing-404/service-worker.js",
+    "static/css/main.51bcc3d7.chunk.css.map": "/react-landing-404/static/css/main.51bcc3d7.chunk.css.map",
+    "static/js/2.e429d9f1.chunk.js.LICENSE.txt": "/react-landing-404/static/js/2.e429d9f1.chunk.js.LICENSE.txt",
+    "static/media/main-astronaut.png": "/react-landing-404/static/media/main-astronaut.ba0a8362.png",
+    "static/media/moon.png": "/react-landing-404/static/media/moon.e0c879ba.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65fde4d9.js",
+    "static/js/2.e429d9f1.chunk.js",
+    "static/css/main.51bcc3d7.chunk.css",
+    "static/js/main.3dbb922f.chunk.js"
+  ]
+}
